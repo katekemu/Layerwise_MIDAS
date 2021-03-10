@@ -3,7 +3,8 @@ import torch.nn.functional as F
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.pipeline import Pipeline
-from SVC_Utils import *
+import Utils
+from Utils.SVC_Utils import *
 from sklearn.metrics import roc_curve, auc
 
 
