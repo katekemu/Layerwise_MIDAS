@@ -2,8 +2,9 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 import matplotlib.pyplot as plt
+import Utils
 
-from metrics import * 
+from Utils.metrics import * 
 
 # determine device to run network on (runs on gpu if available)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
